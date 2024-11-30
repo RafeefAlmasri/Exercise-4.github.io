@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4</title>
+    <style>
+    @font-face{
+        font-family: My Font;
+        src: url(../Media/Lora-Italic-VariableFont_wght.ttf);
+    }
+    *{
+        font-family: My Font;
+    }
+    a{
+        border: 1px solid green;
+        padding: 20px;
+        text-align: center;
+        color: black;
+    }
+    .a:hover{
+            background-color: green;
+        }
+    .ul{
+          color: black;
+          background-color: yellow;
+          width: 380px;
+        }
+    img{
+            position: absolute;
+            left:0 px;
+            top:0 px;
+            z-index: -1
+        }
+    .btn{
+        border: 1px solid green;
+        background-color: green;
+        padding: 20px;
+        text-align: center;
+        color: white;
+    }
+    .p{
+        background-color: gray;
+        width: 150px;
+        padding-left: 10px;
+        text-align: left;
+    }
+    </style>
+</head>
+<body>
+   <strong><h2 style="text-align: center; font-family: My Font; color: gray;">Task_2</h2></strong>
+   <a href="#" class="a">This Is A Link</a>
+   <br><br><br>
+   <hr>
+
+   <ul class="ul">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Coca Cola</li>
+   </ul> 
+
+   <br>
+   <hr>
+   <img src="../Media/management.jpg" alt="" style="width: 150px; height: 150px; z-index: -1;">
+<h1>This is a heading</h1>
+<p>Because the image has a z index of 1 , it will be placed behind the text.</p>
+<br>
+<br>
+<hr>
+<button class="btn">Dropdown</button>
+<p>This Is A Dropdown Menu</p>
+<button class="btn">Dropdown</button>
+<p class="p">Link 1 <br>
+Link 2 <br>
+ Link 3</p>
+</body>
+</html>
